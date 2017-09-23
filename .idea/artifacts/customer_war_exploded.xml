@@ -1,0 +1,47 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="customer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/customer_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="customer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="customer" />
+          <element id="dir-copy" path="$PROJECT_DIR$/src/lib" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="testng" module-name="customer" />
+          <element id="library" level="module" name="JUnit5" module-name="customer" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/el-api.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/jasper.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/jsp-api.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/catalina.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/ecj-4.6.3.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/jasper-el.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/jaspic-api.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-api.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-jni.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/catalina-ha.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/servlet-api.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-util.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/catalina-ant.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/websocket-api.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-i18n-es.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-i18n-fr.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-i18n-ja.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/annotations-api.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-util-scan.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/tomcat-websocket.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.16/lib/catalina-storeconfig.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="customer" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+          <element id="library" level="project" name="lib2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
